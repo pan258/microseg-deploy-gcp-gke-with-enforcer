@@ -3,5 +3,5 @@ terraform {
 }
 
 provider "kubernetes" {
-  config_path    = "../deploy_eks_cluster/kubeconfig"
+  config_path    = "../deploy_gke_cluster/kubeconfig"
 }
