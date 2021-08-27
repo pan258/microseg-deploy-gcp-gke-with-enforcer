@@ -1,29 +1,9 @@
-variable "resource_group_name" {}
-
-variable "location" {}
-
-variable "cluster_name" {}
-
-variable "adminUsername" {}
-
-variable "ssh_public_key" {}
-
-variable "agent_count" {}
-
-variable "vmSize" {}
-
-variable "service_cidr" {}
-
-variable "dns_service_ip" {}
-
-variable "k8s_version" {}
-
 variable "cns_api" {}
 
 variable "cns_namespace" {}
 
 variable "cns_enforcerd_clustertype" {
-    default = "aks"
+    default = "eks"
 }
 
 variable "cns_enforcerd_image" {}

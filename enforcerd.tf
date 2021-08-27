@@ -10,8 +10,6 @@ resource "kubernetes_namespace" "aporeto" {
 
     name = "aporeto"
   }
-
-  depends_on = [ azurerm_kubernetes_cluster.k8s ]
 }
 
 resource "kubernetes_service_account" "enforcerd" {
