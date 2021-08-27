@@ -3,7 +3,7 @@ variable "cns_api" {}
 variable "cns_namespace" {}
 
 variable "cns_enforcerd_clustertype" {
-    default = "eks"
+    default = "gke"
 }
 
 variable "cns_enforcerd_image" {}
